@@ -1,7 +1,10 @@
+//importing models
 const Comments = require("./models/Comments");
 const Promotions = require("./models/Promotions");
 const Leaders = require("./models/Leaders");
 const Dishes = require("./models/Dishes");
+
+//importing other requirements
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 9000;
